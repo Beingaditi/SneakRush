@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <title>SneakRush</title>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="wishlist.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Boogaloo&family=Bungee&family=Chelsea+Market&family=DM+Serif+Display:ital@0;1&family=New+Tegomin&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="brand">SneakRush.</h1>
+      <input type="text" placeholder="Search" id="search"/>
+      <div class="flex">
+        <ul class="flex wow">
+          <li><a href="index.html">Home </a></li>
+          
+          <li>
+<a href="cart.html" class="active">
+  🛒 Cart  <span id="cartBadge"></span>
+</a></li>
+  <li><a href="wishlist.html" class="active">🤍 Wishlist <span id="wishBadge"></span></a></li>
+        </ul>
+         
+        </ul>
+      </div>
+    </div>
+
+<div class="wrapper">
+
+
+  <div  class="image">
+  <img src="img5.png" class="main">
+  </div>
+  
+    <div id="wrap">
+        <p id="Tagline">
+             
+        </p>
+
+    </div>
+</div>
+
+
+
+<div id="container">
+
+
+<div class="card">
+<img src="img1.jpg" class="shopimages">
+<h2>Shadow Street</h2>
+<p>Classic Urban Sneakers</p>
+<h3>₹4,999</h3>
+ <button class="cart"  onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img2.jpg" class="shopimages">
+<h2>Retro Vibe</h2>
+<p>Vintage Street Edition</p>
+<h3>₹5,499</h3>
+ <button class="cart" onclick="addCart(this)" >Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img3.jpg" class="shopimages">
+<h2>Velocity X</h2>
+<p>Performance Runner Sneakers</p>
+<h3>₹6,299</h3>
+ <button class="cart" onclick="addCart(this)" >Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+  
+</div>
+
+
+<div class="card">
+<img src="img4.jpg" class="shopimages">
+<h2>Urban Phantom</h2>
+<p>Black & White Street Style</p>
+<h3>₹4,799</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img6.jpg" class="shopimages">
+<h2>Cloud Step</h2>
+<p>Comfort Everyday Sneakers</p>
+<h3>₹3,999</h3>
+ <button class="cart"  onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img7.jpg" class="shopimages">
+<h2>Pink Pulse</h2>
+<p>Modern Casual Sneakers</p>
+<h3>₹4,599</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+  
+</div>
+
+
+<div class="card">
+<img src="img8.jpg" class="shopimages">
+<h2>Night Runner</h2>
+<p>Premium Sport Sneakers</p>
+<h3>₹6,999</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img9.jpg" class="shopimages">
+<h2>Street Nova</h2>
+<p>Limited Street Collection</p>
+<h3>₹5,999</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img10.jpg" class="shopimages">
+<h2>Shadow Force</h2>
+<p>Bold Everyday Kicks</p>
+<h3>₹4,299</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+  
+</div>
+
+
+<div class="card">
+<img src="img11.jpg" class="shopimages">
+<h2>Air Motion</h2>
+<p>Lightweight Running Shoes</p>
+<h3>₹5,299</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+<img src="img14.jpg" class="shopimages">
+<h2>Street Legend</h2>
+<p>Classic Sneaker Collection</p>
+<h3>₹7,499</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+   
+</div>
+
+
+<div class="card">
+
+   
+
+<img src="img13.jpg" class="shopimages">
+
+<h2>Urban Wave</h2>
+<p>Fresh Streetwear Style</p>
+<h3>₹4,899</h3>
+ <button class="cart" onclick="addCart(this)">Add to Cart</button>
+ <button class="wishBtn" onclick="addWish(this)">🤍 Wishlist</button>
+ 
+    
+</div>
+
+</div>
+
+<footer class="footer">
+    <p>Made with ❤️ by Aditi</p>
+</footer>
+
+
+<script src="wishlist.js"></script>
+<script src="index.js"></script>
+     <script src="cart.js"></script>
+     <script src="common.js"> </script>
+  </body>
+</html>

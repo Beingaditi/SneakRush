@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cart - SneakRush</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="wishlist.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="brand">SneakRush.</h1>
+
+      <input type="text" placeholder="Search Cart..." id="search" />
+
+      <div class="flex">
+        <ul class="flex wow">
+          <li>
+            <h2><a href="index.html">Home </a></h2>
+          </li>
+
+          <li>
+            <h2>
+              <a href="cart.html" class="active"> 🛒 Cart  <span id="cartBadge"></span> </a>
+            </h2>
+          </li>
+
+            <li><h2><a href="wishlist.html" class="active">🤍 Wishlist <span id="wishBadge"></span></a></h2></li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cartpage">YOUR CART</div>
+
+    <div id="empty">
+      <p id="para">Oops! your cart is empty</p>
+
+      <a href="index.html#container" class="shop-now"> SHOP NOW </a>
+    </div>
+
+    <div class="cart-container">
+      <div class="left-cart">
+        <div id="cartItems"></div>
+      </div>
+
+      <div class="bill">
+        <h2>ORDER SUMMARY</h2>
+
+        <div class="bill-row">
+          <p>Subtotal</p>
+
+          <p id="subtotal">₹0</p>
+        </div>
+
+        <div class="bill-row">
+          <p>Delivery</p>
+
+          <p class="free">FREE</p>
+        </div>
+
+        <hr />
+
+        <div class="bill-row total">
+          <h2>Total</h2>
+
+          <h2 id="total">₹0</h2>
+        </div>
+
+        <button class="checkout">PROCEED TO CHECKOUT</button>
+      </div>
+    </div>
+
+
+
+
+
+
+    
+<footer class="footer">
+    <p>Made with ❤️ by Aditi</p>
+</footer>
+
+
+    <script src="wishlist.js"></script>
+    <script src="cart.js"></script>
+    <script src="common.js"> </script>
+
+
+
+    
+  </body>
+  
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Wishlist - SneakRush</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="wishlist.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+
+   
+    <div class="header">
+      <h1 class="brand">SneakRush.</h1>
+      <input type="text" placeholder="Search Wishlist..." id="wishlistSearch" />
+      <div class="flex">
+        <ul class="flex wow">
+          <li><h2><a href="index.html">Home</a></h2></li>
+          <li><h2><a href="cart.html">🛒 Cart <span id="cartBadge"></span></a></h2></li>
+          <li><h2><a href="wishlist.html" class="active">🤍 Wishlist <span id="wishBadge"></span></a></h2></li>
+        </ul>
+      </div>
+    </div>
+
+   
+    <div class="wishlist-banner">
+      <span class="banner-label">YOUR WISHLIST</span>
+    </div>
+
+   
+    <div id="wishEmpty">
+      <p>Nothing saved yet</p>
+      <a href="index.html#container" class="shop-now">EXPLORE DROPS</a>
+    </div>
+
+    
+    <div id="wishlistGrid"></div>
+
+    <footer class="footer">
+      <p>Made with ❤️ by Aditi</p>
+    </footer>
+
+    <script src="badge.js"></script>
+    <script src="wishlist.js"></script>
+    <script src="common.js"></script>
+  </body>
+</html>
